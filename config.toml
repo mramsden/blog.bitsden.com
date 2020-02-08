@@ -1,0 +1,47 @@
+baseURL = "https://blog.bitsden.com"
+languageCode = "en-gb"
+title = "Marcus Ramsden"
+theme = "ezhil"
+
+copyright = "© 2020 Marcus Ramsden"
+
+pygmentsUseClasses = true
+pygmentscodefences = true
+
+[params]
+subtitle = "A software engineer"
+
+mainSections = ["posts"]
+
+featherIconsCDN = true
+
+mode = "auto"
+
+customCSS = "css/custom.css"
+
+customDarkCSS = "css/syntax-dark.css"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/mramsden"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/marcusramsden/"
