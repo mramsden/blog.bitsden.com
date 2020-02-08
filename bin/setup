@@ -1,0 +1,35 @@
+#!/bin/sh
+
+set -e
+
+HUGO_VERSION=${HUGO_VERSION:-0.64.0}
+
+architecture() {
+    if [ "$(uname -m)" = "x86_64" ]
+    then
+        echo "64bit"
+    else
+        echo "32bit"
+    fi
+}
+
+setup_hugo() {
+    version=$1
+    arch=$(architecture)
+    url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_Linux-${arch}.tar.gz"
+    output_file="hugo.tar.gz"
+    
+    echo -n "Downloading Hugo $version... "
+    curl -sL -o $output_file $url
+    echo "😀"
+
+    echo -n "Installing Hugo $version... "
+    tar -xzf $output_file hugo
+    chmod +x hugo
+    rm $output_file
+    echo "😀"
+
+    echo "Hugo installed"
+}
+
+setup_hugo $HUGO_VERSION
