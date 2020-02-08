@@ -45,3 +45,8 @@ url = "https://github.com/mramsden"
 name = "LinkedIn"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/marcusramsden/"
+
+[[deployment.targets]]
+name = "blog"
+URL = "s3://blog-bitsden-com?region=eu-west-1"
+cloudFrontDistributionID = "EEQTA7OP1B1D3"
