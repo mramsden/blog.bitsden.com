@@ -2,7 +2,7 @@
 
 set -e
 
-HUGO_VERSION=${HUGO_VERSION:-0.64.0}
+HUGO_VERSION=${HUGO_VERSION:-0.69.2}
 
 architecture() {
     if [ "$(uname -m)" = "x86_64" ]
