@@ -2,7 +2,7 @@
 
 set -e
 
-HUGO_VERSION=${HUGO_VERSION:-0.69.2}
+HUGO_VERSION=${HUGO_VERSION:-0.71.0}
 
 architecture() {
     if [ "$(uname -m)" = "x86_64" ]
@@ -19,11 +19,11 @@ setup_hugo() {
     url="https://github.com/gohugoio/hugo/releases/download/v${version}/hugo_${version}_Linux-${arch}.tar.gz"
     output_file="hugo.tar.gz"
     
-    echo -n "Downloading Hugo $version... "
+    echo "Downloading Hugo $version... \c"
     curl -sL -o $output_file $url
     echo "😀"
 
-    echo -n "Installing Hugo $version... "
+    echo "Installing Hugo $version... \c"
     tar -xzf $output_file hugo
     chmod +x hugo
     rm $output_file
