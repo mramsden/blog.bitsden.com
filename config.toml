@@ -23,6 +23,9 @@ customDarkCSS = "css/syntax-dark.css"
 
 emailURL = "mailto:marcus@bitsden.com"
 
+webmentionEnabled = true
+webmentionDomain = "blog.bitsden.com"
+
 [[menu.main]]
 name = "Home"
 url = "/"
