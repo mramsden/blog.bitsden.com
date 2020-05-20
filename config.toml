@@ -21,6 +21,8 @@ customCSS = "css/custom.css"
 
 customDarkCSS = "css/syntax-dark.css"
 
+emailURL = "mailto:marcus@bitsden.com"
+
 [[menu.main]]
 name = "Home"
 url = "/"
