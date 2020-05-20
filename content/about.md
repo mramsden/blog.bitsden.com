@@ -5,8 +5,6 @@ date: 2020-02-08T15:05:01Z
 
 I am a software developer based in London, UK with 10 years experience working across Web, iOS and Android.
 
-I currently work for [Gousto](https://gousto.co.uk) on their iOS app.
-
 I have managed teams in e-commerce and built apps that integrate with large existing platforms. As well as building customer facing client code I have also got experience working with backend systems to support those apps.
 
 Over the years I have created apps for clients across a number of industries including Finance, Automotive, Events, Broadcasting and Interior Architecture.
