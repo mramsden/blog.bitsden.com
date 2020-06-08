@@ -1,6 +1,7 @@
 ---
 title: "Notify Github of Laravel Forge deployment status"
 date: 2017-02-14
+type: post
 ---
 
 [Laravel Forge](https://forge.laravel.com/) is a great way of managing the setup of your servers for your PHP projects. It takes care of ensuring that all the appropriate dependencies are setup on your server as well. In this post we’ll look at how to notify Github following a successful push based deployment.

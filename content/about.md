@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2020-02-08T15:05:01Z
+type: page
 ---
 
 I am a software developer based in London, UK with 10 years experience working across Web, iOS and Android.

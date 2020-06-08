@@ -1,6 +1,7 @@
 ---
 title: "Passing Data From Laravel to Vue"
 date: 2017-05-28
+type: post
 ---
 
 In order to progressively enhance my [Laravel](https://laravel.com/) templates I have been using [Vue.js](https://vuejs.org/). One problem that I was grappling with is that one of my components was actually behaving more like an application and needs a load of startup data.

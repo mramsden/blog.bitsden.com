@@ -1,6 +1,7 @@
 ---
 title: "Getting Started With Kitura on Heroku"
 date: 2016-10-31
+type: post
 ---
 
 [Kitura](https://www.kitura.io/) is a web framework created by IBM. It is a really simple framework with more than a passing similarity to frameworks such as Sinatra, Express, Lumen and Flask. It is written in Swift so there are some big draws towards using it as you can start to consider writing both your client code (assuming you are building for iOS and OS X) and server side code in the same language.
