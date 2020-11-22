@@ -3,7 +3,7 @@
 		// the `slug` parameter is available because
     // this file is called [slug].svelte
     const { slug } = params
-		const res = await this.fetch(`posts/${slug.join('/')}.json`);
+		const res = await this.fetch(`${slug.join('/')}.json`);
 		const data = await res.json();
 
 		if (res.status === 200) {
