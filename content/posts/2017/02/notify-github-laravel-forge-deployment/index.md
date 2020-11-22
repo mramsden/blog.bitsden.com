@@ -56,6 +56,6 @@ You can retrieve a Github authorization token for your project by going [here](h
 
 Once this is done after a Forge deployment you will see the status indicators appearing on the commits in your Github repo:
 
-![](commits.png)
+![](2017/02/notify-github-laravel-forge-deployment/commits.png)
 
 An orange dot means pending, a green tick means success and a red cross means failed.

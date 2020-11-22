@@ -140,7 +140,7 @@ This will build and package your application for you. Once the process is comple
 
 Now point your browser at [http://localhost:8080](http://localhost:8080) and you should see something like the following:
 
-{{<figure src="hello-world.png" title="Your new Kitura app running in the browser!">}}
+![Your new Kitura app running in the browser!](2016/10/getting-started-with-kitura-on-heroku/hello-world.png)
 
 ## Deployment
 

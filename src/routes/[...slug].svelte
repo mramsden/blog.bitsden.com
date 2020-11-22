@@ -15,7 +15,7 @@
 </script>
 
 <script>
-	export let post;
+  export let post
 </script>
 
 <style>
@@ -55,7 +55,7 @@
 </style>
 
 <svelte:head>
-	<title>{post.title}</title>
+  <title>{post.title}</title>
 </svelte:head>
 
 <h1>{post.title}</h1>
