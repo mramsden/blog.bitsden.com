@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Marcus Ramsden"
 theme = "ezhil"
 
-copyright = "© 2020 Marcus Ramsden"
+copyright = "© 2021 Marcus Ramsden"
 
 pygmentsUseClasses = true
 pygmentscodefences = true
@@ -25,6 +25,9 @@ emailURL = "mailto:marcus@bitsden.com"
 
 webmentionEnabled = true
 webmentionDomain = "blog.bitsden.com"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [[menu.main]]
 name = "Home"
